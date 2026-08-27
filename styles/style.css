@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #091239;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header nav a {
+    color: #b0acac;
+    text-decoration: none;
+    margin-left: 20px;
+}
+header nav a:hover {
+    color: #fff;
+}
+
+header {
+    background-color: #1b1632;
+    color: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle-logo {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-download-nav {
+    background: linear-gradient(to right, #702f93, #2323b7);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.Inicio {
+    background-color: #262046;
+    background-image:url(../assets/images/hojasFondo.jpg) ; 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50% 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    height: 450px;
+}
+
+.contenido-inicio {
+    max-width: 450px;
+}
+
+.Inicio h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Inicio p {
+    font-size: 20px;
+    color: #c2c0d0;
+    margin-bottom: 30px;
+}
+
+.botones-inicio {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #e91e63;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imagen-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-inicio img {
+    width: 280px;
+    height: auto;
+}
+
+.parte2{
+    background-color: #fff;
+    color: #000f;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  
+}
+.titulo2 {
+    color: #ff00ae;
+    font-size: 35px;
+    text-align: center;
+}
+.parte2 h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.parte2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.parte2 img {
+    width: 500px;
+    height: auto;
+}
+.rosado {
+    color: #ff00ae;
+}
+
+.parte3_plans{
+    background-color: #131a46;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.parte3_plans h2 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.texto3 {
+    width: 100%;
+    text-align: center;
+}
+.parte3_plans p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.caja1, .caja2, .caja3 {
+  background: #ffffff;
+  width: 280px;
+  border-radius: 4px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icono-font {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+
+
+
