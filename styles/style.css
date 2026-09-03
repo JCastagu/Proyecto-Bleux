@@ -260,4 +260,126 @@ footer p {
         padding: 15px 30px;
     }
 }
+@media (max-width: 920px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    header nav a {
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .Inicio h2 {
+        font-size:50px;
+    }
+    .imagen-inicio img {
+        width: 220px;
+        margin-top: 30px;
+    }
+    .botones-inicio {
+        justify-content: center;
+    }
+    .parte2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .parte2 img {
+        width: 300px;
+        margin-top: 30px;
+    }
+    .caja1, .caja2, .caja3 {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+@media (max-width: 481px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+    header nav a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .imagen-inicio img {
+        width: 200px;
+        margin-top: 30px;
+    }
+    
+    .Inicio {
+        padding: 40px 15px;
+    }
+    .Inicio h2 {
+        font-size: 32px;
+    }
+    .Inicio p {
+        font-size: 16px;
+    }
+    .botones-inicio {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .parte2 {
+        padding: 30px 15px;
+    }
+    .parte2 img {
+        width: 100%;
+        max-width: 250px;
+    }
+    .caja1, .caja2, .caja3 {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px 15px;
+    }
+    .parte3_plans {
+        padding-bottom: 30px;
+    }
+    .parte3_plans h2 {
+        font-size: 24px;
+    }
+    .parte3_plans p {
+        font-size: 14px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        font-size: 14px;
+    }
+    footer p {
+        text-align: center;
+    }
+    .social {
+        justify-content: center;
+        font-size: 18px;
+    }
+    .icono {
+        font-size: 30px;
+    }
+    .icono img {
+        width: 30px;
+        height: 30px;
+    }
+}
 
